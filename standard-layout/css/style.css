@@ -396,6 +396,76 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: underline;
 }
 
+.search-box {
+    padding: 15px;
+    background: #ccc;
+    font-size: 0;
+}
+
+.search-box > * {
+    font-size: 1.2rem;
+}
+
+.search-box .search-input {
+    width: 205px;
+    height: 26px;
+    padding: 0 10px;
+    border: none;
+}
+
+.search-box .search-button {
+    width: 40px;
+    height: 26px;
+    border: none;
+    background: #d03c56;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-box .text {
+    margin-top: 12px;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px 0 30px;
+    background: #2d3d54 url('../images/bg-footer.gif');
+    color: #fff;
+}
+
+.horizontal-list {
+    width: 970px;
+    margin: 0 15px;
+    text-align: right;
+    font-size: 0;
+}
+
+.horizontal-list .horizontal-item {
+    display: inline-block;
+    padding: 0 15px;
+    letter-spacing: 1px;
+}
+
+.horizontal-list .horizontal-item + .horizontal-item {
+    border-left: 1px solid #bbb;
+}
+
+.horizontal-list .horizontal-item a {
+    border-bottom: 1px dashed #777;
+    color: #bbb;
+    font-size: 1.1rem;
+    transition: color 0.15s;
+}
+
+.horizontal-list .horizontal-item a:hover {
+    color: #ddd;
+}
+
+.copyright {
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
 /*.header, .main, .sidemenu, .footer {*/
 /*border: 1px solid #aaa;*/
 /*background-color: #ccc;*/
